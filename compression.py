@@ -19,6 +19,7 @@ def convert_image(image):
 def zero(input):
     num_zeroes = digits-len(str(input))
     return '0'*num_zeroes+str(input)
+
 def compress(image):
     image_string = ""
     for row in image:
